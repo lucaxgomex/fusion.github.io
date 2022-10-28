@@ -80,8 +80,8 @@ body {
 /* ==========================================================================
    Links
    ========================================================================== */
-
-/**
+   
+   /**
  * Remove the gray background color from active links in IE 10.
  */
 
@@ -93,17 +93,18 @@ a {
  * Address `outline` inconsistency between Chrome and other browsers.
  */
 
-a:focus {
+ a:focus {
     outline: thin dotted;
 }
 
 /**
- * Improve readability when focused and also mouse hovered in all browsers.
- */
+* Improve readability when focused and also mouse hovered in all browsers.
+*/
 
 a:active,
 a:hover {
     outline: 0;
+    color: rgb(0, 0, 0);
 }
 
 /* ==========================================================================
@@ -403,4 +404,18 @@ textarea {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+
+button {
+    padding: 3vh;
+    width: 50%;
+    border-radius: 50px;
+    border-style: hidden;
+    text-decoration: rgb(140, 59, 216);
+}
+
+button:hover {
+    background-color: #e5ff00;
+    border-color: blueviolet;
 }

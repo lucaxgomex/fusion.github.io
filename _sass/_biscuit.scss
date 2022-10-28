@@ -13,7 +13,7 @@ html {
 body {
   margin: 2rem 0 5rem;
   color: rgb(255, 247, 247);
-  background-color: #0074d9;
+  background-color: rgb(140, 59, 216);
 }
 
 @media (min-width: 30rem) {
@@ -174,3 +174,6 @@ pre > code {
   padding: 0 1rem;
 }
 
+.blockquote-text {
+  color: rgb(255, 247, 247);
+}
